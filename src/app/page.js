@@ -20,15 +20,15 @@ const YesNoComponent = () => {
 
   const phrases = [
     "No",
-    "Are you sure?",
-    "Really Sure",
-    "Cookie says please",
-    "Don't do this to me",
-    "I am gonna cry",
-    "You are breaking my heart ;(",
-    "I am very sad",
-    "I am very very sad",
-    "I am very very very sad",
+    "Are you sure Krisha? 🥺",
+    "Really Sure 😭",
+    "Cookie says please 🫣",
+    "Don't do this to me 😔",
+    "I am gonna cry 😭",
+    "You are breaking my heart 💔;(",
+    "I am very sad 😢",
+    "I am very very sad 🥺",
+    "I am very very very sad 🥹",
   ];
 
   const [noCount, setNoCount] = useState(0);
@@ -64,7 +64,7 @@ const YesNoComponent = () => {
     setImage(
       "https://media1.tenor.com/m/Ln8IqVQSpZMAAAAC/lele-iyi.gif"
     );
-    setPhrase("Yayyyy");
+    setPhrase("Yayyy Krisha! ❤️ You just made me the happiest guy 😘");
     setConfettiActive(true);
   };
 
@@ -92,7 +92,7 @@ const YesNoComponent = () => {
             src={image}
             alt=""
           />
-          <h1 className="text-2xl">Will you be my Valentine? </h1>
+          <h1 className="text-2xl">Hey Krisha 🥰  Will you be my Valentine? </h1>
         </div>
         <div>
           <button
